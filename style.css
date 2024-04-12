@@ -1,0 +1,54 @@
+#main_title {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+
+.box1 h2 {
+    float: left;
+}
+
+.box2 h2 {
+    float: left; 
+}
+
+.box3 h2 {
+    float: left; 
+}
+
+.box4 h2 {
+    float: left;
+}
+
+.box5 h2 {
+    float: left;
+}
+
+.box6 h2 {
+    float: left;
+}
+
+.box1 button {
+    float: right;
+}
+
+.box2 button {
+    float: right;
+}
+
+.box4 button {
+    float: right;
+}
+
+
+.container {
+    margin-top: 50px;
+}
+
+h6 {
+    text-align: center;
+    color: red;
+}

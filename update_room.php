@@ -1,5 +1,4 @@
 <?php
-include('header.php');
 include('dbcon.php');
 
 $row = array();
@@ -36,7 +35,7 @@ if (isset($_POST['update_room'])) {
 }
 ?>
 
-<form action="update_room.php?id=<?php echo $id; ?>" method="post">
+<form action="delete_room.php?id=<?php echo $id; ?>" method="post">
     <div class="form-group">
         <label for="roomnumber">Room Number</label>
         <input type="text" name="roomnumber" class="form-control" value="<?php echo isset($row['roomNo']) ? $row['roomNo'] : ''; ?>">
